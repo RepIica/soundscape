@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Gruppo|Open+Sans|Poppins|Quicksand|Roboto);
+
+.padding-top-10{
+	padding-top: 10px;
+}
+body{
+	background-color: #191919;
+	font-family: 'Quicksand';
+	margin:0;
+}
+* {
+  box-sizing: border-box;
+}
+#container2{
+	background-color: #191919;
+	color: #efefef;
+	padding: 1.5em 3em 2em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	max-width: 750px;
+	border-radius: 0.4em;
+}
+.gender-padding{
+	padding-top:10px;
+}
+p {
+	font-size: 1em;
+}
+.panel-default,.panel-default>.panel-heading{	border-color: #40484d;}
+.panel-default>.panel-heading,.panel{background: #40484d;}
+.panel-heading p{
+	color: #f7f7f7;
+	font: 1.2em 'Roboto';
+	margin-bottom: 0;
+	letter-spacing: 3px;
+}
+.form-control{
+	background-color: #1d2123;
+	color: white;
+	border: 2px solid #40484d;
+	font-size: 1em;
+}
+input[type=date] {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	color: gray;
+	border-radius: 0.3em;
+	border: 2px solid #40484d;
+	background-color: #1d2123;
+	width: 100%;
+}
+.custom-select{
+    display: block;
+    margin: 0;
+    font-size: 1em;
+    outline:none; /* remove font:   ;ocus ring from Webkit */
+    line-height: 1.2;
+    background-color: #1d2123;
+    color:white;
+    border: 2px solid #40484d;
+    height: 34px;
+    width: 100%
+}
+label {
+	font-size: 1em;
+}
+input[type=email], input[type=text], input[type=password], input[type=date], #about, select {
+	transition: border-color 0.30s ease-in-out;
+	outline: none;
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+}
+input[type=email]:hover, input[type=text]:hover, input[type=password]:hover, input[type=date]:hover, #about:hover, select:hover {
+	box-shadow: 0 0 5px #7aaf00;
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 2px solid #7aaf00;
+}
+input[type=email]:focus, input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, #about:focus, select:focus {
+	box-shadow: 0 0 5px #79AC00;
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 2px solid #79AC00;
+}
+/*------Gender Radio-------*/
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(http://webdesigntutsplus.s3.amazonaws.com/tuts/391_checkboxes/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+input[type="radio"]:checked + label span {
+    background:url(http://webdesigntutsplus.s3.amazonaws.com/tuts/391_checkboxes/check_radio_sheet.png) -57px top no-repeat;
+}
+/*------Gender Radio-------*/
+
+.btn {
+	background-color: #598000;
+	color: #ccc;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	width: 100%;
+	transition: all 0.15s ease-in-out;
+}
+.btn:hover, .btn:active, .btn:focus {
+	background-color: #8bc600;
+	color: #444444;
+	outline: 0 !important;
+
+}
+::selection {
+	background-color: #79AC00;
+}
+.panel-body{
+	background-color: #191919;
+}
+#agree{
+	color: rgba(58,65,66,1);
+	font-size: .8em;
+}
+#agree a{
+	color: rgba(76,209,224,0.2);
+}

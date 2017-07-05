@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Gruppo|Open+Sans|Poppins|Quicksand|Roboto);
+.navbar {
+  padding: 20px 15px 20px 30px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #191919;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.88);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.88);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.88);
+}
+.navbar-brand
+ .container-fluid {
+  padding-top: 40px;
+  padding-bottom: 40x;
+}
+.navbar-brand{
+  font-size: 18px;
+}
+#logo{  
+  color: #4CD1E0;
+  font-family: 'Gruppo';
+  text-transform: uppercase;
+}
+#feature1{
+  background-color: #FB3640;
+}
+body {
+  margin: 0;
+  background: #000;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+ .row{
+  margin: 0;
+ }
+ .margin {
+  margin-bottom: 45px;
+ }
+ .bg-1 {
+  background-color: #9e1212;
+  color: #ffffff;
+  padding-top: 0px;
+ }
+ .bg-2 {
+  background-color: #ffe8e8;
+  /* Dark Blue */
+  color: #9e1212;
+ }
+ .bg-3 {
+  background-color: #ffffff;
+  /* White */
+  color: #555555;
+ }
+ .bg-4 {
+  background-color: #2f2f2f;
+  /* Black Gray */
+  color: #fff;
+ }
+ * {
+  box-sizing: border-box;
+ }
+ .video-background {
+  background: #000;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+ }
+ .video-foreground, .video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 40;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+ }
+ @import url('http://fonts.googleapis.com/css?family=Oswald');
+ body {
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+ #video-background {
+  right: 0;
+  bottom: 50;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+ }
+ video{
+  width: 100%;
+ }
+ article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+ }
+ h1 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  text-align: center;
+ }
+ div#music {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  color: white;
+  transition: .4s;
+ }
+ .span12 {
+  background-color: black;
+ }
+ .carousel-inner.onebyone-carosel {
+  margin: auto;
+  width: 90%;
+ }
+ .onebyone-carosel .active.left {
+  left: -25.00%;
+ }
+ .onebyone-carosel .active.right {
+  left: 25.00%;
+ }
+ .onebyone-carosel .next {
+  left: 25.00%;
+ }
+ .onebyone-carosel .prev {
+  left: -25.00%;
+ }
+ .container {
+  margin-top: 0px;
+  color: #fff;
+  width: 100%;
+  padding: 0px;
+ }
+ .well {
+  background-color: black;
+  border: 0px;
+ }
+ .carousel-control.left {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.960784) 0, rgba(24, 24, 24, 0.227451) 100%);
+  background-color: white;
+ }
+ .carousel-control.right {
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgba(24, 24, 24, 0.227451)), to(rgba(0, 0, 0, 0.960784)));
+  background-color: white;
+ }
+ .myCarousel {}
+ /* Featurettes
+------------------------- */
+ 
+ .featurette-divider {
+  margin: 80px 0;
+  /* Space out the Bootstrap <hr> more */
+ }
+ .featurette {
+  padding-top: 120px;
+  /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden;
+  /* Vertically center images part 2: clear their floats. */
+ }
+ .featurette-image {
+  margin-top: -120px;
+  /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+ }
+ /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+ 
+ .featurette-image.pull-left {
+  margin-right: 40px;
+ }
+ .featurette-image.pull-right {
+  margin-left: 40px;
+ }
+ /* Thin out the marketing headings */
+ 
+ .featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+ }
+ /*footer css start*/
